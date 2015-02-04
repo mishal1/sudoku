@@ -1,4 +1,4 @@
-require 'cell'
+require_relative './cell'
 
 class Square
 

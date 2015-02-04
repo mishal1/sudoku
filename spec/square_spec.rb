@@ -25,6 +25,7 @@ describe Square do
 
   it 'should be able to change the content of the cells' do
     expect(square.changeContent(0, 1)).to eq 1
+    expect(square.cells[0].content).to eq 1
   end
 
   it 'should not be able to change the content of a cell if the number is already in the square' do

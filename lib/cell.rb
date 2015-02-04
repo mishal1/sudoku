@@ -4,6 +4,7 @@ class Cell
 
   def initialize
     @limit = 9
+    @content = nil
   end
 
   def setContent(number)
