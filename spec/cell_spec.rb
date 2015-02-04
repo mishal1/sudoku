@@ -32,4 +32,9 @@ describe Cell do
     expect(cell.content).to eq nil
   end
 
+  it 'the content of a cell cannot be a float' do
+    cell.setContent(1.5)
+    expect(cell.content).to eq nil
+  end
+
 end
